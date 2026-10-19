@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "kind": "standard-bench-web-simulator",
+  "abiVersion": 1,
+  "source_repo": "chiralightsystems/standard-bench",
+  "source_sha": "4959c46c4abea0fb6a60c51df7af84aa6d63bd61",
+  "source_branch": "codex/web-simulator-artifact",
+  "workflow_run_id": "39311388351",
+  "run_attempt": 1,
+  "artifact_name": "motor-bench-4959c46c4abea0fb6a60c51df7af84aa6d63bd61-attempt-1",
+  "binarySha256": "b2360121d4e3a933a57b26fa91215ed438a528735377f07d0b157365de62b6d4",
+  "buildSha256": "4287d80cffc1259f0f14b94dd2eb09e8a88de252ffcf7cf0cd8dbe10d7da55d2"
+}

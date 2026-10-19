@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "abiVersion": 1,
+  "source": {
+    "repository": "chiralightsystems/standard-bench",
+    "commit": "4959c46c4abea0fb6a60c51df7af84aa6d63bd61",
+    "branch": "codex/web-simulator-artifact"
+  },
+  "controller": {
+    "repository": "chiralightsystems/standard-motor",
+    "commit": "975f61dab2681db0aa2a79479b3b798328e6580d"
+  },
+  "inputs": [
+    {
+      "path": "external/standard-motor/include/control_structures.h",
+      "sha256": "c246f59ca660e087ae1657851ca08014a2acd37c45d9b90cd41f20dbe90a652d"
+    },
+    {
+      "path": "external/standard-motor/include/flux_observer.h",
+      "sha256": "999deb4e27377aa54a6c739616ef7b6d68f85ea58102e0170eb7f7cb71b7e375"
+    },
+    {
+      "path": "external/standard-motor/include/foc.h",
+      "sha256": "451e5aae72abb0ea7a8b2e56760b0e0f322a25b79560d50ab38fcecc511289b8"
+    },
+    {
+      "path": "external/standard-motor/include/motor.h",
+      "sha256": "d480c6044604043a0c9610de7be17256457b529094b228cba72809cd14636faa"
+    },
+    {
+      "path": "external/standard-motor/include/motor_utils.h",
+      "sha256": "25886a3baef1d8bac9309e793ba07bc9bbb147636415b43a2f4f2f27b78ab980"
+    },
+    {
+      "path": "external/standard-motor/include/param_detect.h",
+      "sha256": "210859f0c36fdfd1ae72a67ecf6300711134d9aeaaabc886504293bad47125a0"
+    },
+    {
+      "path": "external/standard-motor/include/saliency_tracking.h",
+      "sha256": "68cbd38686be0ae275f5dfb90f17c50166844e3ee8c09822febeb22c8820f225"
+    },
+    {
+      "path": "external/standard-motor/include/utils.h",
+      "sha256": "c1ea0f70de7ef411b0bdec6dabc8db14f7d5188c6b7c9b95938e2808a1fc4037"
+    },
+    {
+      "path": "external/standard-motor/source/control_structures.c",
+      "sha256": "2366ba6c6e17fe6f4c041164836dbfed1473ce8a64fa1df6f1c819df7b6a0bce"
+    },
+    {
+      "path": "external/standard-motor/source/flux_observer.c",
+      "sha256": "dd3f09837848e0fe393f84330d93b1494a0eff7cc4adf89be94a6a00e025c306"
+    },
+    {
+      "path": "external/standard-motor/source/foc.c",
+      "sha256": "079b276deada1382c06f110a0902dd71fa9750536e3e75c52500fc2f3b500c38"
+    },
+    {
+      "path": "external/standard-motor/source/motor.c",
+      "sha256": "cf6158551f661155e2120f569d8f03680ad13ec3d6c0c33f1f77e8fd5454e461"
+    },
+    {
+      "path": "external/standard-motor/source/motor_utils.c",
+      "sha256": "58aae7de2d8eba5f58a9e4b1e56503f91c85b41a0f24b760daae165485bd4d69"
+    },
+    {
+      "path": "external/standard-motor/source/param_detect.c",
+      "sha256": "57e7a62432e700b491ce3f6b09786bd31fdc5cf4bc16d62e5c30d2b00a586559"
+    },
+    {
+      "path": "external/standard-motor/source/saliency_tracking.c",
+      "sha256": "ff6f6055aefb1429924058e91c91c954f22b8b17ac5711a453a0aa731a3f8af5"
+    },
+    {
+      "path": "simulation/bench_timing.h",
+      "sha256": "469ef426b7e0a7bf196eaa0cb4668ecd3d3885d9204f54b4595a0c1a61fa83b6"
+    },
+    {
+      "path": "simulation/pmsm_model.c",
+      "sha256": "282a914b09ae1f543434b5e6a8095b5384bafa4132c9691337e259a92062d3ab"
+    },
+    {
+      "path": "simulation/pmsm_model.h",
+      "sha256": "3b67687f78560c43e4e3c6c0d379eaefb5c57ef6205182752ac5d48b33ea8fe2"
+    },
+    {
+      "path": "simulation/pwm_preload.c",
+      "sha256": "c6a54a24640556a42a469d50734ec19e3661d827dd49fb7f43826af99fdaa07e"
+    },
+    {
+      "path": "simulation/pwm_preload.h",
+      "sha256": "c4e88e9dc68e4ad13963804274e33437797f83328e222328a7f56bb5e4acc855"
+    },
+    {
+      "path": "simulation/web/bench.c",
+      "sha256": "e616561935f68f0a83634773ac9e89598f1346ea7519fedaa5239d72f6944e0d"
+    },
+    {
+      "path": "simulation/web/bench.h",
+      "sha256": "4c3c7892a67f138f21714a792f9fe64a1d71c6088e41e0a6f3f79cf8692cb778"
+    },
+    {
+      "path": "simulation/web/wasm/include/math.h",
+      "sha256": "446d08303beb7cae7d7034d12e53bea1c3e21185d3a3cfa4716787485d0652f5"
+    },
+    {
+      "path": "simulation/web/wasm/include/string.h",
+      "sha256": "5fa287f0912bf34bfebcf094b94888119f14372137bc05407239f73bfef45237"
+    },
+    {
+      "path": "simulation/web/wasm/runtime.c",
+      "sha256": "a17585b361922d248f954e9d12bd50cb42cc0089eaae36b5de6590953017c3cf"
+    },
+    {
+      "path": "tools/build_web_simulator.mjs",
+      "sha256": "d539c4150199d65a2b7865f2d4fe157c22929a2a3b364d4bc74cf161122541a4"
+    }
+  ],
+  "sourceSha256": "20da195b9c3cea64f34fabb8a5d85189f452adbb278c0bd2ac2d75a1f2e9f534",
+  "binarySha256": "b2360121d4e3a933a57b26fa91215ed438a528735377f07d0b157365de62b6d4",
+  "compiler": {
+    "name": "clang",
+    "version": "19.1.1",
+    "target": "wasm32"
+  },
+  "arguments": [
+    "--target=wasm32",
+    "-std=gnu23",
+    "-O3",
+    "-DNDEBUG",
+    "-ffreestanding",
+    "-fno-builtin",
+    "-fno-fast-math",
+    "-ffp-contract=off",
+    "-fvisibility=hidden",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-mbulk-memory",
+    "-nostdlib",
+    "-Isimulation/web/wasm/include",
+    "-Isimulation/web",
+    "-Isimulation",
+    "-Iexternal/standard-motor/include",
+    "simulation/web/bench.c",
+    "simulation/web/wasm/runtime.c",
+    "external/standard-motor/source/control_structures.c",
+    "external/standard-motor/source/flux_observer.c",
+    "external/standard-motor/source/foc.c",
+    "external/standard-motor/source/motor_utils.c",
+    "external/standard-motor/source/motor.c",
+    "external/standard-motor/source/param_detect.c",
+    "external/standard-motor/source/saliency_tracking.c",
+    "simulation/pmsm_model.c",
+    "simulation/pwm_preload.c",
+    "-Wl,--no-entry",
+    "-Wl,--export-memory",
+    "-Wl,--allow-undefined",
+    "-Wl,--strip-all",
+    "-Wl,--initial-memory=2097152",
+    "-Wl,--max-memory=2097152",
+    "-Wl,-z,stack-size=262144",
+    "-Wl,--export=bench_drive",
+    "-Wl,--export=bench_init",
+    "-Wl,--export=bench_set_control",
+    "-Wl,--export=bench_set_electrical",
+    "-Wl,--export=bench_set_power",
+    "-Wl,--export=bench_step",
+    "-Wl,--export=bench_value"
+  ],
+  "imports": [
+    {
+      "module": "env",
+      "name": "atan2",
+      "kind": "function"
+    },
+    {
+      "module": "env",
+      "name": "cos",
+      "kind": "function"
+    },
+    {
+      "module": "env",
+      "name": "fmod",
+      "kind": "function"
+    },
+    {
+      "module": "env",
+      "name": "hypot",
+      "kind": "function"
+    },
+    {
+      "module": "env",
+      "name": "sin",
+      "kind": "function"
+    },
+    {
+      "module": "env",
+      "name": "tanh",
+      "kind": "function"
+    }
+  ],
+  "exports": [
+    "bench_drive",
+    "bench_init",
+    "bench_set_control",
+    "bench_set_electrical",
+    "bench_set_power",
+    "bench_step",
+    "bench_value",
+    "memory"
+  ]
+}
